@@ -122,3 +122,15 @@ git push -u origin main
 >HEROKU_EMAIL_ADDRESS
 
 >DOCKER_IMAGE_NAME=<wafercircle3270303>
+
+## to update the changes
+"""
+git add .
+git commit -m "<personalised message>"
+git push
+"""
+
+## to create requirements.txt  file
+"""
+pip freeze>requirements.txt
+"""
